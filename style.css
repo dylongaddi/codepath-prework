@@ -1,0 +1,75 @@
+/* a minimalist set of CSS resets */
+
+body {
+  margin: 2em;
+  font-family: helvetica, arial, sans-serif;
+  background-color: #663399;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 15px;
+  border-radius: 8px
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: pink;
+}
+
+#button2 {
+  background: #fce7b6;
+}
+
+#button3 {
+  background: lightyellow;
+}
+
+#button4 {
+  background: lightgreen;
+}
+
+#button5 {
+  background: lightblue;
+}
+
+#button6 {
+  background: #f7d1ff;
+}
+
+#button1:active, #button1.lit {
+    background: red;
+}
+
+#button2:active, #button2.lit {
+    background: #fab700;
+}
+
+#button3:active, #button3.lit {
+    background: yellow;
+}
+
+#button4:active, #button4.lit {
+    background: green;
+}
+
+#button5:active, #button5.lit {
+    background: blue;
+}
+
+#button6:active, #button6.lit {
+    background: #d400ff;
+}
