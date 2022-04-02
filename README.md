@@ -6,14 +6,14 @@ Submitted by: **NAME**
 
 Time spent: **#** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://rainbow-recall.glitch.me/
 
 ## Required Functionality
 
 The following **required** functionality is complete:
 
-* [ ] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [ ] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [✓] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [✓] "Start" button toggles between "Start" and "Stop" when clicked. 
 * [ ] Game buttons each light up and play a sound when clicked. 
 * [ ] Computer plays back sequence of clues including sound and visual cue for each button
 * [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
@@ -34,7 +34,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [ ] Mistakes/Lives are kept track of and displayed. Mistakes create an alert box.
+- [ ] Streak/Progress is kept track of and displayed.
 
 ## Video Walkthrough (GIF)
 
@@ -46,16 +47,19 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+- Google color picker
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+- https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
+
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+- The main challenge I encountered was first wiring the game logic for the "guess" function. I first looked at the flowchart given and transposed it into pseudocode. I then used console.log to display the total for guesses and progress to try to further understand the issure. After having it mostly work, I decided to take around an hour break from trying to debug it to see if I could come back with a better perspective. I then took a peek at the provided solution and figured out the problem was a simple flaw in my logic. I was accessing the index of pattern with progress rather than with guesses. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+- The questions I have revolve around the backend as well as front end frameworks, both of which I would love to learn more about. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+- I would probably attempt to refactor the way the random pattern is created so that the user could input the length of how long the pattern is. Perhaps I would try to  implement easy, medium, and hard difficulties that scale the length of the pattern as well as the time in between each clue. I would love to spruce up the design a little bit and try making a more distinct theme with the buttons and audio, and maybe I would try to make a dark mode that flips all the colors of the buttons, text, and website in general. 
 
 
 
